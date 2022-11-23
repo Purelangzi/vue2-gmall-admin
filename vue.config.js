@@ -39,7 +39,7 @@ module.exports = {
     },
     proxy: {
       '/dev-api': {
-        // target: 'http://39.98.123.211:8170',备用接口
+        // target: 'http://39.98.123.211:8170',//备用接口用户8170或品牌8510
         target: 'http://gmall-h5-api.atguigu.cn',
         pathRewrite: { '^/dev-api': '' }
       }
