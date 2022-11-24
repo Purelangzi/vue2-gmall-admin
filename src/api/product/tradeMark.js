@@ -13,3 +13,5 @@ export const reqAddOrUpdateTradeMark = (data) => {
 // 请求删除某个品牌
 export const reqDeleteTradeMark = (id) => request.delete(`/admin/product/baseTrademark/remove/${id}`)
 
+// 请求根据品牌名搜索品牌列表
+export const reqFindTradeMarkByTmName = (keyword) => request.get(`/admin/product/baseTrademark/findBaseTrademarkByKeyword/${keyword}`)
