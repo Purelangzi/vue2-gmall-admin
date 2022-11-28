@@ -33,6 +33,8 @@ Vue.use(ElementUI)
 // 统一引入api接口
 import * as API from '@/api'
 Vue.prototype.$API = API 
+import CategorySelect from '@/components/CategorySelect'
+Vue.component( CategorySelect.name,CategorySelect)
 
 Vue.config.productionTip = false
 

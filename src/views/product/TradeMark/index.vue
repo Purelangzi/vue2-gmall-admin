@@ -256,7 +256,9 @@ export default {
 
       })
     },
+    // 返回品牌列表
     onReturnTmForm(){
+      this.$refs.searchTmForm.resetFields()
       this.isReturn = false
       this.getTradeMarkData()
     }    
